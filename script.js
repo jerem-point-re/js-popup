@@ -13,7 +13,6 @@ window.addEventListener("scroll", function () {
     let pastPos = 0;
     let midPos = 300;
     let endPos = 700;
-    let opened = true;
     const scrollbar = window.scrollY;
 
     if (scrollbar > pastPos) {
@@ -40,6 +39,5 @@ window.addEventListener("scroll", function () {
 
     closeBtn.addEventListener('click', function() {
         popup.style.display = 'none';
-        opened = false;
     });
 });
